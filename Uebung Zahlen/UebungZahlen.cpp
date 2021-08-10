@@ -32,4 +32,8 @@ int main()
 	cout << endl;
 	cout << endl;
 
+
+	int *rzahl;		// Hier wird ein Pointer/Zeiger auf die Intger Variable angelegt.
+	cout << "Der Zeiger der lokalen Variable \"RZahl\" zeigt auf folgende Speicheradresse : " << &rzahl;		//Hier wird die Speicher Adresse der lokalen Variablen "RZahl1" angezeigt.
+	return 0;
 }
